@@ -1,0 +1,132 @@
+/* Colors and fonts */
+
+body {
+	color: darkgrey;
+	font-size: 20px;
+	background:rgb(233, 175, 184);
+}
+
+
+.whitecard{
+	background: floralwhite;
+	margin:40px 20%;
+	padding: 20px;
+	padding-top: 7.5px; 
+	box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+	border-radius: 10px;
+	text-align: center;
+}
+
+html {
+	height: 120%;
+}
+
+img{
+	border-radius: 50px;
+	widows: 80px;
+}
+.choice1{
+	color: dimgrey;
+	font-size:20px;
+	text-decoration:none;
+	padding:13.5px;
+	padding:2px;
+	margin:5px 5px ;}
+
+.choice1:hover{
+	background: rgba(233, 175, 184,0.35);
+	color: whitesmoke;
+}
+
+ul{
+	text-decoration: none;
+	padding: 0;
+	display: inline-flex;
+	font-size: 25px;
+}
+
+li:hover{
+	color: rgba(233, 175, 184,0.8);
+}
+
+li{
+	list-style: none; 
+	list-style: none;
+	size:25px ;
+    margin: 0 15px;
+}
+
+a:hover{
+	color: rgba(233, 175, 184,0.8);
+}
+
+a{
+	list-style: none; 
+	list-style: none;
+	size:25px ;
+    margin: 0 0px;
+    color: black;
+    background: rgba(233, 175, 184,0.2);
+    text-decoration: none;
+
+}
+
+    i{
+    	font-size: 25px;
+    }
+
+#italic{
+	font-size: 15px;
+	font-style: italic;
+	margin-top: -10px;
+}
+strong{
+	font-size: 15px;
+	font: bold;}
+
+h1,h2,h3{
+	font-family: serif;
+}
+
+h1{
+	background: transparent;
+	color: black;
+	font-size: 35px;}
+
+h2{
+	background: transparent;
+	color: black;
+	font-size: 25px;}
+
+h3{
+	background: transparent;
+	color: darkgrey;
+	font-size: 35px;
+}
+
+p{
+	color: darkgrey;
+	font-family:roboto;
+	font-size: 15px;
+	text-align: center;
+	margin: 10px 50px;
+}
+body {
+	color: darkgrey;
+	font-size: 20px;
+	background:rgb(233, 175, 184)
+}
+
+.container {
+	margin: 0 auto;
+}
+
+
+@media(max-width: 720px){
+	.container{width: 500px;
+		}
+	}
+
+@media(max-width: 500px){
+	.container{width: 400px}
+}
